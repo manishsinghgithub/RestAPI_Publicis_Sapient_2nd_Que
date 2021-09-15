@@ -14,6 +14,7 @@ def getPhoneNumber(country, phoneNumber):
     else:
         exit()
 
-
-ans=getPhoneNumber("India", "9595959595")
+country=input("Country Name")
+phoneNumber=input("Phone Number")
+ans=getPhoneNumber(country, phoneNumber)
 print(ans)        
